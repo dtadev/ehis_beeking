@@ -9,16 +9,16 @@
 }
 
 html{
-    /*fz 100% = 17px => 72.5% = 10px*/ 
-    /* font-size: 72.5%; */
-    /* line-height: 1.7rem; */
+    /*fz 100% = 16px => 62.5% = 10px*/ 
+    /* font-size: 62.5%; */
+    /* line-height: 1.6rem; */
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
 
 .header{
-    width: 100%;
+    width: 1230px;
     height: 600px;
     padding-top: 30px;
     margin: 0 auto;
@@ -173,7 +173,7 @@ html{
 }
 
 .rectangle{
-    width: 50px;
+    width: 25px;
     cursor: pointer;
 }
 
@@ -414,7 +414,7 @@ html{
     background-color: #FCE7C5;
     width: 100%;
     height: 380px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .mission_heading img:first-child{
@@ -502,7 +502,7 @@ html{
     height: 600px;  
     position: relative;
     z-index: 10;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .news-title img{

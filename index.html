@@ -1,355 +1,458 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="./assets/font/fontawesome-free-6.2.1-web/css/all.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
+	<link rel="stylesheet" href="./assets/css/reponsive.css">
+
     <link rel="shortcut icon" href="./assets/image/trangngoai/ICON_WEBSITE BEE-01.png" type="image/x-icon">
-    
-    <link rel="stylesheet" href="./assets/js/bootstrap-5.2.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/reponsive.css">
-    <title>Bee King</title>
+
+	<title>Beeking</title>
+
+	<script src="./assets/js/jquery-3.6.1.min.js"></script>
 </head>
+
 <body>
-    <div class="app">
-        <header class="header" id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="header_welcome">
-                        <div class="welcome col-md-4">
-                            <div>
-                                <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-01.png" alt="">
-                                <h1>Chào mừng đến với Beeking</h1>
-                            </div>
-                        </div>
-                        <div class="logo col-md-4 text-center">
-                            <img class="logo" src="./assets/image/trangngoai/ICON_WEBSITE BEE-LOGO.png" alt="">
-                
-                        </div>
-    
-                        <div class="info col-md-4">
-                           <div class="infor_link">
-                               <div>
-                                    <ul>
-                                        <li><a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-02.png" alt=""></a></li>
-                                        <li><a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-03.png" alt=""></a></li>
-                                        <li><a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-04.png" alt=""></a></li>
-                                        <li><a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-05.png" alt=""></a></li>
 
-                                    
+	<div id="header">
+		<div class="left">
+			<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-01.png">
+			<span class="slogan">Chào mừng bạn đến với Beeking</span>
+		</div>
+		<div class="center">
+			<a href="#">
+				<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-LOGO.png">
+			</a>
+		</div>
+		<div class="right">
+			<div>
+				<ul class="language-item">
+					<li>
+						<a href="#">VN</a>
+					</li>
+					<li>
+						<a href="#">EN</a>
+					</li>
+					<li>
+						<a href="#">CN</a>
+					</li>
+				</ul>
 
-                                    </ul>
+				<ul class="link-item">
+					<li>
+						<a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-02.png"></a>
+					</li>
+					<li>
+						<a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-03.png"></a>
+					</li>
+					<li>
+						<a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-04.png"></a>
+					</li>
+					<li>
+						<a href="#"><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-05.png"></a>
+					</li>
+				</ul>
+			</div>
 
-                                    <ul class="country">
-                                        <li><a href="#">VN</a></li>
-                                        <li><a href="#">EN</a></li>
-                                        <li><a href="#">CN</a></li>
-                                    </ul>
+			<div class="clear-float">
+				<ul class="language-item">
+					<li>
+						<a href="#">VND</a>
+					</li>
+					<li>
+						<a href="#">USD</a>
+					</li>
+					<li>
+						<a href="#">CNY</a>
+					</li>
+				</ul>
+			</div>
 
-                               </div>
-                                <ul class="currency">
-                                    <li><a href="#">VNĐ</a></li>
-                                    <li><a href="#">USD</a></li>
-                                    <li><a href="#">CNY</a></li>
-                                </ul>
-                           </div>
 
-                           <div>
-                            <ul class="login">
-                                <li>
-                                    <a href="#">Đăng ký</a>
-                                </li>
-                                <li>
-                                    <a href="#">Đăng nhập</a>
+			<div class="clear-float user">
 
-                                </li>
-                                <li>
-                                    <img class="rectangle" src="./assets/image/sanpham/ICON SP-14.png" alt="">
+				<ul class="giohang p-l-10">
+					<li>
+						<a href="#">
+							<img src="./assets/image/donhang.png" height="40">
+						</a>
+					</li>
+					<li class="p-l-10">
+						<a href="#">
+							<img class="m-t-10" src="./assets/image/sanpham/ICON SP-24.png" height="25">
+						</a>
+					</li>
+				</ul>
 
-                                </li>
-                                <li>
-                                    <img class="cart" src="./assets/image/sanpham/ICON SP-24.png" alt="">
+				<ul class="language-item">
+					<li>
+						<a href="#">Đăng nhập</a>
+					</li>
+					<li>
+						<a href="#">Đăng ký</a>
+					</li>
+				</ul>
 
-                                </li>
-                            </ul>
-                                
-                           </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <!-- menu -->
-                   <div class="menu" id="menu">
-                        <ul class="menu_list text-uppercase">
-                            <li><a href="#">Trang chủ</a></li>
-                            <li><a href="#">Giới thiệu</a></li>
-                            <li><a href="#">Sản phẩm</a></li>
-                            <li><a href="#">Chất lượng</a></li>
-                            <li><a href="#">Tin tức</a></li>
-                            <li><a href="#">Liên hệ</a></li>
-                        </ul>
-                        <div class="search">
-                                <input type="text" placeholder="Search">
-                                <button class="search_btn">
-                                    <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-07.png" alt="search">
-                                </button>
-                        </div>
-                   </div>
-                </div>
-            </div>
-            <div class="bgc_img-header">
-                <img src="./assets/image/bgc_beeking.jpg" alt="">
-            </div>
-        </header>
+			</div>
+		</div>
 
-        
-        <!-- san pham ban chay -->
-        <div class="container">
-            <div class="hotseller_heading text-center">
-                <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-08.png" alt="">
-               <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-16.png" alt="">
-                <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-09.png" alt="">
-            </div>
-            <div class="hotseller"> 
-                <div class="row product-list">
-                    <div class="col-xl-3 col-md-6 col-sm-12 product">
-                        <img class="product-img" src="./assets/image/img_sanpam.jpg" alt="">
-                        <div class="price text-center">
-                            <div class="price-text">Giá bán lẻ</div>
-                            <div class="pricing">130.000</div>
-                        </div>
-                        <div class="amount text-center">
-                            <div class="amount_type">Chai</div>
-                            <div class="amount_capacity">1000ml</div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-sm-12 product">
-                        <img class="product-img" src="./assets/image/img_sanpam2.jpg" alt="">
-                        <div class="price text-center">
-                            <div class="price-text">Giá bán lẻ</div>
-                            <div class="pricing">760.000</div>
-                        </div>
-                        <div class="amount text-center">
-                            <div class="amount_type">Hủ</div>
-                            <div class="amount_capacity">365 viên</div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-sm-12 product">
-                        <img class="product-img" src="./assets/image/img_sanpam3.jpg" alt="">
-                        <div class="price text-center">
-                            <div class="price-text">Giá bán lẻ</div>
-                            <div class="pricing">400.000</div>
-                        </div>
-                        <div class="amount text-center">
-                            <div class="amount_type">Hủ</div>
-                            <div class="amount_capacity">500 gr</div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-sm-12 product">
-                        <img class="product-img" src="./assets/image/img_sanpam4.jpg" alt="">
-                        <div class="price text-center">
-                            <div class="price-text">Giá bán lẻ</div>
-                            <div class="pricing">165.000</div>
-                        </div>
-                        <div class="amount text-center">
-                            <div class="amount_type">Hủ</div>
-                            <div class="amount_capacity">300 gr</div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-        </div>
+		
+	</div>
 
-        <!-- su menh -->
-        <div class="mission">
-            <div class="mission_heading text-center">
-                <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-10.png" alt="">
-                <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-15.png" alt="">
-                <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-11.png" alt="">
-            </div>
+	
+	<div id="menu">
+		<div class="navbar">
+			<i class="navbar-icon fas fa-bars"></i>
+		</div>
+		<div class="left">
+			<ul>
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Giới thiệu</a></li>
+				<li><a href="#">Sản phẩm</a></li>
+				<li><a href="#">Chất lượng</a></li>
+				<li><a href="#">Tin tức</a></li>
+				<li><a href="#">Liên hệ</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<div class="search">
+				<input type="text" placeholder="Search">
+				<button>
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</div> 
+	</div>
 
-            <div class="container mission_content">
-                <div class="mission_text text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt mollitia a eligendi velit! Optio, velit tenetur maxime harum doloremque quos tempore, impedit iusto quia fugit nisi doloribus provident magnam obcaecati.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt mollitia a eligendi velit! Optio, velit tenetur maxime harum doloremque quos tempore, impedit iusto quia fugit nisi doloribus provident magnam obcaecati.
-                </div>
-                <div class="mission_video">
-                    <iframe width="320" height="215"
-                    src="https://www.youtube.com/embed/3iM_06QeZi8?controls=0">
-                    </iframe>
-                </div>
-            </div>
-        </div>
+	<div id="banner">
+		<img src="./assets/image/bgc_beeking.jpg">
+	</div>
 
-        <div class="bgc_img-content">
-            <img src="./assets/image/bgc_beeking2.jpg" alt="">
-        </div>
+	<!-- san pham ban chay -->
+	<div id="home-product">
+		<div class="product-header d-flex justify-content-center align-items-center">
+			<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-08.png">
+			<span class="group-title">Sản phẩm bán chạy</span>
+			<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-09.png">
+		</div>
 
-        <!-- feedback khach hang -->
-        <div class="feedback">
-            <div class="feedback-title text-center">
-                <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+		<div class="container list-product">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="item-product">
+						<div class="gia">
+							<div class="text-gia">giá bán lẻ</div>
+							<div class="giaban">130.000</div>
+							<div class="dvt">chai <br>1000 ml</div>
+						</div>
 
-                <div>
-                    <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-17.png" alt="">
-                </div>
-            </div>
-            <div class="container ">
-                <div>
-                    <div class="col-md-12 comment">
-                        <div class="comment-avt">
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-21.png" alt="">
-                        </div>
-                        <div class="comment-text">
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+						<img src="./assets/image/img_sanpam.jpg">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="item-product">
+						<div class="gia">
+							<div class="text-gia">giá bán lẻ</div>
+							<div class="giaban">130.000</div>
+							<div class="dvt">chai <br>1000 ml</div>
+						</div>
+						<img src="./assets/image/img_sanpam2.jpg">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="item-product">
+						<div class="gia">
+							<div class="text-gia">giá bán lẻ</div>
+							<div class="giaban">130.000</div>
+							<div class="dvt">chai <br>1000 ml</div>
+						</div>
+						<img src="./assets/image/img_sanpam3.jpg">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="item-product">
+						<div class="gia">
+							<div class="text-gia">giá bán lẻ</div>
+							<div class="giaban">130.000</div>
+							<div class="dvt">chai <br>1000 ml</div>
+						</div>
+						<img src="./assets/image/img_sanpam4.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolore provident officia voluptates! Iste fuga quas perferendis facilis, provident quidem, modi sapiente voluptatibus placeat iusto amet voluptatum omnis beatae impedit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-12 comment">
-                        <div class="comment-avt">
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-21.png" alt="">
-                        </div>
-                        <div class="comment-text">
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
-                            <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolore provident officia voluptates! Iste fuga quas perferendis facilis, provident quidem, modi sapiente voluptatibus placeat iusto amet voluptatum omnis beatae impedit.</p>
-                        </div>
-                        
-                    </div>
+	<!-- su menh -->
+	<div class="mission">
+		<div class="mission-header d-flex justify-content-center align-items-center">
+			<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-10.png">
+			<span class="group-title">Sứ Mệnh</span>
+			<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-11.png">
+		</div>
 
-                    <div>
-                        <img class="arrow-right" src="./assets/image/trangngoai/ICON_WEBSITE BEE-20.png" alt="">
-                    </div>
-                </div>
-                
-                
-            </div>
-        </div>
+		<div class="container mission-content">
+			<div class="row text-center">
+				<div class="col-md-6">
+					<div class="mission-text">
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, quas porro doloremque asperiores, in aliquid vero similique modi dolores labore provident quam corporis, veritatis natus repellat voluptas blanditiis sint quo.</p>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, quas porro doloremque asperiores, in aliquid vero similique modi dolores labore provident quam corporis, veritatis natus repellat voluptas blanditiis sint quo.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="mission-video">
+						<iframe 
+						src="https://www.youtube.com/embed/3iM_06QeZi8?controls=0">
+						</iframe>
+					</div>
+				</div>
+				
+			</div>
+		</div>
 
-        <!-- tin tuc -->
-        <div class="news text-center">
-            <div class="news-title text-center">
-                <span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-18.png" alt=""></span>
-            </div>
+		
+	</div>
 
-            <div class="container">
-            <div style="display: flex;">
-                <div class="row news_content">
-                    <div class="col-md-3">
-                        <div class="news_post">
-                            <img src="./assets/image/news_sp.jpg" alt="">
-                            <p class="post-heading">Tinh chất</p>
-                            <p class="post-text">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quas quo suscipit eius dolores voluptas sit esse aperiam quasi facilis non, reiciendis earum, laudantium vero adipisci nesciunt! Dolore, obcaecati deserunt.
-                                <span><a href="#"><i>(Xem tiếp)</i></a></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="news_post">
-                            <img src="./assets/image/news_sp.jpg" alt="">
-                            <p class="post-heading">Nghệ Tây</p>
-                            <p class="post-text">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quas quo suscipit eius dolores voluptas sit esse aperiam quasi facilis non, reiciendis earum, laudantium vero adipisci nesciunt! Dolore, obcaecati deserunt.
-                                <span><a href="#"><i>(Xem tiếp)</i></a></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="news_post">
-                            <img src="./assets/image/news_sp.jpg" alt="">
-                            <p class="post-heading">VTV1</p>
-                            <p class="post-text">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quas quo suscipit eius dolores voluptas sit esse aperiam quasi facilis non, reiciendis earum, laudantium vero adipisci nesciunt! Dolore, obcaecati deserunt.
-                                <span><a href="#"><i>(Xem tiếp)</i></a></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="news_post">
-                            <img src="./assets/image/news_sp.jpg" alt="">
-                            <p class="post-heading">Mật Ong</p>
-                            <p class="post-text">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quas quo suscipit eius dolores voluptas sit esse aperiam quasi facilis non, reiciendis earum, laudantium vero adipisci nesciunt! Dolore, obcaecati deserunt.
-                                <span><a href="#"><i>(Xem tiếp)</i></a></span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div >
-                    <img style="position: absolute; bottom: 0px;" class="arrow-right" src="./assets/image/trangngoai/ICON_WEBSITE BEE-20.png" alt="">
-                </div>
-            </div>
-                
-            </div>
-            
-            
-        </div>
+	<div id="banner">
+		<img src="./assets/image/bgc_beeking2.jpg">
+	</div>
 
-        <footer class="footer" id="footer">
-            <div class="footer-list row">
-                <div class="col-md-4">
-                    <ul class="about"> 
-                        <h6>Công ty TNHH SX TM VÀ DV SONG ÂN</h6>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-24.png" alt="">
-                            <a href="#">20 Đường số 11, Khu dân cư Cityland, phường 10, Quận Gò Vấp, Tp.HCM</a></li>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-25.png" alt="">
-                            <a href="tel:02877745999">Tel: 028 77745999</a></li>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-26.png" alt="">
-                            <a href="mailto:info@ehis.vn">Email: info@ehis.vn</a></li>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-27.png" alt="">
-                            <a href="#">Website: www.ehis.vn</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="information"> 
-                        <h6>THÔNG TIN</h6>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-24.png" alt="">
-                            <a href="#">Chính sách đổi trả</a></li>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-25.png" alt="">
-                            <a href="#">Chính sách bảo hành</a></li>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-26.png" alt="">
-                            <a href="#">Hướng dẫn mua hàng</a></li>
-                        <li>
-                            <img src="./assets/image/trangngoai/ICON_WEBSITE BEE-27.png" alt="">
-                            <a href="#">Thông tin thanh toán & giao hàng</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="followus">
-                        <h6>THEO DÕI CHÚNG TÔI</h6>
-                    
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=250&height=150&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2273465086252826" width="250" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                    </ul>
-                    
-                </div>
-            </div>
-        </footer>
-        
-    </div>
+	<!-- feedback -->
+	<div class="feedback">
+		<div class="feedback-header text-center">
+			<div class="groups-stars">
+				<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+				<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+				<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+				<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+				<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+			</div>
+			<div class="fb-titles">
+				<span class="group-title feedback-title text-uppercase">Nhận xét khách hàng</span>
+			</div>
+		</div>
+		<div class="feedback-content container">
+			<div class="row">
+				<div class="feedback-customer">
+					<div class="col-md-12">
+						<div class="customer d-flex">
+							<div>
+								<img class="customer-img" src="./assets/image/trangngoai/ICON_WEBSITE BEE-21.png" alt="">
+							</div>
+							<div class="customer-content">
+								<div class="customer-stars">
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+								</div>
+
+								<div class="customer-text">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut quis, asperiores ex sed deleniti itaque natus facilis iure commodi ab blanditiis autem minima! Illo quo minus harum ut consequatur.</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="customer d-flex">
+							<div>
+								<img class="customer-img" src="./assets/image/trangngoai/ICON_WEBSITE BEE-21.png" alt="">
+							</div>
+							<div class="customer-content">
+								<div class="customer-stars">
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+									<span><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-13.png" alt=""></span>
+								</div>
+
+								<div class="customer-text">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut quis, asperiores ex sed deleniti itaque natus facilis iure commodi ab blanditiis autem minima! Illo quo minus harum ut consequatur.</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<img class="arrow-right" src="./assets/image/trangngoai/ICON_WEBSITE BEE-20.png" alt="">
+					<div class="clear-float"></div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- tin tuc news -->
+
+	<div class="news">
+		<div class="news-header text-center">
+			<img src="./assets/image/bg-tintuc.png" alt="" class="news-logo">
+			<h1 class="news-title text-uppercase group-title">Tin Tức</h1>
+		</div>
+		<div class="news-content">
+			<div  style="position: relative;" class="container ">
+				<div class="d-flex ">
+					<div class="row post">
+						<div class="col-md-3">
+							<div class="post-item">
+								<div class="post-img">
+									<img src="./assets/image/news_sp.jpg" alt="">
+								</div>
+								<div class="post-content text-center">
+									<div class="post-title text-uppercase">
+										Tiêu đề
+									</div>
+									<div class="post-text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis architecto, vitae exercitationem nihil, consectetur modi, eligendi et porro assumenda fugiat totam molestias eveniet magnam ratione. Est obcaecati totam ea!
+											<a href="#"><i>(Xem tiếp)</i></a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="post-item">
+								<div class="post-img">
+									<img src="./assets/image/news_sp.jpg" alt="">
+								</div>
+								<div class="post-content text-center">
+									<div class="post-title text-uppercase">
+										Tiêu đề
+									</div>
+									<div class="post-text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis architecto, vitae exercitationem nihil, consectetur modi, eligendi et porro assumenda fugiat totam molestias eveniet magnam ratione. Est obcaecati totam ea!
+											<a href="#"><i>(Xem tiếp)</i></a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="post-item">
+								<div class="post-img">
+									<img src="./assets/image/news_sp.jpg" alt="">
+								</div>
+								<div class="post-content text-center">
+									<div class="post-title text-uppercase">
+										Tiêu đề
+									</div>
+									<div class="post-text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis architecto, vitae exercitationem nihil, consectetur modi, eligendi et porro assumenda fugiat totam molestias eveniet magnam ratione. Est obcaecati totam ea!
+											<a href="#"><i>(Xem tiếp)</i></a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="post-item">
+								<div class="post-img">
+									<img src="./assets/image/news_sp.jpg" alt="">
+								</div>
+								<div class="post-content text-center">
+									<div class="post-title text-uppercase">
+										Tiêu đề
+									</div>
+									<div class="post-text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis architecto, vitae exercitationem nihil, consectetur modi, eligendi et porro assumenda fugiat totam molestias eveniet magnam ratione. Est obcaecati totam ea!
+											<a href="#"><i>(Xem tiếp)</i></a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div>
+					<img class="news_arrow-right arrow-right" src="./assets/image/trangngoai/ICON_WEBSITE BEE-20.png" alt="">
+					<div class="clear-float"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="container">
+			<div class="cong-ty">
+				<div class="title">
+					Công ty TNHH SX TM và DV Song Ân
+				</div>
+				<ul>
+					<li>
+						<div class="d-flex">
+							<div class="img">
+								<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-24.png">
+							</div>
+							<div>
+								20 Đường Số 11, Khu dân cư Cityland, phường 10, Quận Gò Vấp, Tp. HCM
+							</div>
+						</div>
+						
+						
+					</li>
+					<li><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-24.png"><a href="#">Tel: 028 77745999</a></li>
+					<li><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-25.png"><a href="#">Email: info@ehis.vn</a></li>
+					<li><img src="./assets/image/trangngoai/ICON_WEBSITE BEE-26.png"><a href="#">Website: www.ehis.vn</a></li>
+				</ul>
+			</div>
+			<div class="thong-tin">
+				<div class="title">
+					Thông tin
+				</div>
+				<ul>
+					<li>
+						<a href="#">Chính sách đổi trả</a>
+					</li>
+					<li>
+						<a href="#">Chính sách bảo mật</a>
+					</li>
+					<li><a href="#">Hướng dẫn mua hàng</a></li>
+					<li><a href="#">Thông tin thanh toán & giao hàng</a></li>
+				</ul>
+			</div>
+			<div class="theo-doi">
+				<div class="title">
+					Theo dõi chúng tôi
+				</div>
+				<div class="fanpage">
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=250&height=150&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2273465086252826" width="250" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<script>
+		$(document).ready(function(){
+			$('.navbar-icon').click(function(){
+				// if($(this).find('.sub').length>0)
+				// {
+				// 	if(!$(this).hasClass('active'))
+				// 		$('#menu>ul>li').removeClass('active');
+				// 	$(this).toggleClass('active')
+				// }
+						$('#menu .left').toggleClass('d-block');
+						$('#menu .right').toggleClass('d-block');
+				
+			})
+
+		});
+
+	</script>
+	
 </body>
+
 </html>

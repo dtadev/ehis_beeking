@@ -1,17 +1,154 @@
- /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
- }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-   
+/* Mobi & Tablet */
+:root{
+    --primary-color: #EC5827;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (max-width: 1023px) {
+}
 
- }
+/* MObi */
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (max-width: 739px) {
+
+    #header,
+    #menu,
+    #home-product,
+    .feedback,
+    .mission,
+    .news{
+        width: 100%;
+    }
+
+    #header .left,#header .right{
+        display: none;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 0px none;
+        align-items: center;
+    }
+    .navbar{
+        margin-bottom: 20px;
+    }
+    #menu,.navbar,
+    .navbar .navbar-icon{
+        display: block;
+
+      }
+
+      #menu .left, 
+      #menu .right{
+        display: none;
+        /* width: 200px; */
+        /* margin: 0 auto; */
+      }
+
+    #menu .left ul{
+        display: block;
+        height: 200px;
+    }   
+
+    #menu .left ul li{
+        border: 0px none;
+        padding: 14px 0 14px 30px;
+    }
+    #menu .search {
+        width: 250px;
+        margin: 0 30px;
+    }
+
+    #menu .search button{
+        height: 30px;
+        width: 60px;
+
+    }
+
+
+    #banner img{
+        padding-top: 0;
+    }
+
+
+    .list-product .col-md-3{
+        margin: 15px 0;
+        
+    }
+
+
+    #footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group-title{
+        font-size: 30px;
+    }
+
+    .fb-titles{
+        width: 100%;
+    }
+
+    #footer .container{
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+
+    #footer .container .cong-ty,
+    #footer .container .thong-tin,
+    #footer .container .theo-doi
+    {
+       margin: 0;
+    }
+
+    #footer .cong-ty .title,
+    #footer .thong-tin .title,
+    #footer  .theo-doi{
+        text-align: center;
+    }
+
+    #footer{
+        height: 100%;
+    }
+
+
+    .post-item{
+        max-width: 100%;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .post-img img {
+        /* height: 100%; */
+        height: 250px;
+    }
+
+    .item-product img{
+        width: 100%;
+    }
+
+
+
+
+    .mission-video{
+        padding-top: 15px;
+        width: 500px;
+    }
+
+    .right.d-block{
+        margin-bottom: 20px;
+    }
+    .news-header.text-center{
+        padding-top: 65px;
+    }
+
+    .mission-text p{
+        padding-left: 0px;
+    }
+
+    .mission-header{
+        padding: 20px 0;
+    }
+}
+
