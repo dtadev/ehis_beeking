@@ -1,16 +1,9 @@
-/* Mobi & Tablet */
 :root{
     --primary-color: #EC5827;
 }
 
-@media (max-width: 1023px) {
-}
-
-/* MObi */
-
-@media (max-width: 739px) {
-
-    /* css chung */
+/* Mobi & Tablet */
+@media  (max-width: 1023px) {
 
     #header,
     #menu,
@@ -43,33 +36,39 @@
       #menu .left, 
       #menu .right{
         display: none;
-        /* width: 200px; */
-        /* margin: 0 auto; */
+
       }
 
     #menu .left ul{
         display: block;
-        height: 200px;
+        height: 220px;
     }   
 
     #menu .left ul li{
         border: 0px none;
         padding: 14px 0 14px 30px;
     }
-    #menu .search {
-        width: 250px;
-        margin: 0 30px;
+
+    #menu .left ul li:first-child{
+        margin-top: 25px;
     }
 
+    #menu {
+        position: relative;
+    }
+    #menu .search {
+        /* width: 250px; */
+        width: 90%;
+        margin: 15px 30px;
+        position: absolute;
+        top: 15%;
+    }
+    #menu .search input{
+        flex-grow: 1;
+    }
     #menu .search button{
         height: 30px;
         width: 60px;
-
-    }
-
-
-    #banner img{
-        padding-top: 0;
     }
 
     #footer .container{
@@ -97,16 +96,30 @@
         height: 100%;
     }
 
-    /*end  css chung */
+    #banner img{
+        padding-top: 0;
+    }
 
-    /* css index.html */
+    .group-title{
+        font-size: 30px;
+    }
+
+}
+
+/* MObi */
+
+@media (max-width: 739px) {
+
+    
+
+    /* css index.html mobi */
     .list-product .col-md-3{
         margin: 15px 0;
         
     }
 
     .group-title{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .fb-titles{
@@ -129,7 +142,7 @@
     }
     .mission-video{
         padding-top: 15px;
-        width: 500px;
+        width: 100%;
     }
 
     .right.d-block{
@@ -147,7 +160,36 @@
         padding: 20px 0;
     }
 
+    .feedback-content{
+        width: 100%;
+    }
 
+    .mission-header img:first-child,
+    .product-header img:first-child{
+        width: 70px;
+    }
+
+    .mission-header img:last-child,
+    .product-header img:last-child{
+        display: none;
+    }
+
+    .customer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .customer-content{
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    #footer .container .cong-ty ul{
+        width: 237px;
+    }
     /*end css index.html */
     
 

@@ -1,0 +1,15 @@
+:root{
+    --primary-color: #EC5827;
+}
+*{
+    box-sizing: inherit; /*kế thừa thẻ chứa nó*/
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
