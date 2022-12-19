@@ -10,6 +10,8 @@
 
 @media (max-width: 739px) {
 
+    /* css chung */
+
     #header,
     #menu,
     #home-product,
@@ -70,30 +72,13 @@
         padding-top: 0;
     }
 
-
-    .list-product .col-md-3{
-        margin: 15px 0;
-        
-    }
-
-
     #footer .container{
         display: flex;
         flex-direction: column;
-    }
-
-    .group-title{
-        font-size: 30px;
-    }
-
-    .fb-titles{
-        width: 100%;
-    }
-
-    #footer .container{
         padding-top: 40px;
         padding-left: 30px;
     }
+    
 
     #footer .container .cong-ty,
     #footer .container .thong-tin,
@@ -112,6 +97,21 @@
         height: 100%;
     }
 
+    /*end  css chung */
+
+    /* css index.html */
+    .list-product .col-md-3{
+        margin: 15px 0;
+        
+    }
+
+    .group-title{
+        font-size: 30px;
+    }
+
+    .fb-titles{
+        width: 100%;
+    }
 
     .post-item{
         max-width: 100%;
@@ -127,10 +127,6 @@
     .item-product img{
         width: 100%;
     }
-
-
-
-
     .mission-video{
         padding-top: 15px;
         width: 500px;
@@ -150,5 +146,10 @@
     .mission-header{
         padding: 20px 0;
     }
+
+
+    /*end css index.html */
+    
+
 }
 
