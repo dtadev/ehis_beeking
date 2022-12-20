@@ -24,8 +24,12 @@ body {
     margin-bottom: 40px;
 }
 
-.introduce-header{
+.introduce-header h1{
     font-size: 34px;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 30px 0;
+    box-shadow: 1px 1px 3px solid #000;
 }
 
 .introduce-text p{
@@ -89,6 +93,18 @@ body {
     border-bottom: 2px solid #000;
 }
 
+
+
+.intro-mission-header .img-down{
+    display: none;
+}
+
+.giatri_content,
+.sumenh_content{
+    display: none;
+}
+
+
 /* process */
 
 .process{
@@ -113,6 +129,7 @@ body {
 .process-header{
     color: #fff;
     font-size: 34px;
+    padding: 20px 0;
 }
 .process-btns,
 .process-content{

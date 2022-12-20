@@ -14,7 +14,11 @@
         width: 100%;
     }
 
-    #header .left,#header .right{
+    /* #header .left,#header .right{
+        display: none;
+    } */
+
+    #header .left{
         display: none;
     }
 
@@ -22,8 +26,15 @@
         display: flex;
         justify-content: space-evenly;
         border-bottom: 0px none;
-        align-items: center;
+        /* align-items: center; */
     }
+/* 
+    #header .right{
+        position: absolute;
+        top: 70%;
+        left: 0;
+    } */
+
     .navbar{
         margin-bottom: 20px;
     }
@@ -92,9 +103,7 @@
         text-align: center;
     }
 
-    #footer{
-        height: 100%;
-    }
+
 
     #banner img{
         padding-top: 0;
@@ -104,6 +113,20 @@
         font-size: 30px;
     }
 
+    .col-sm-12.col-md-6.col-lg-3{
+        margin-bottom: 20px;
+    }
+
+
+    /* tintuc */
+
+    .more_post-more{
+
+        padding-left: 50px;
+        /* padding-bottom: 20px; */
+    }
+
+    /* end tin tuc */
 }
 
 /* MObi */
@@ -149,7 +172,7 @@
         margin-bottom: 20px;
     }
     .news-header.text-center{
-        padding-top: 65px;
+        padding-top: 70px;
     }
 
     .mission-text p{
@@ -188,10 +211,18 @@
     }
 
     #footer .container .cong-ty ul{
-        width: 237px;
+        width: 240px;
     }
     /*end css index.html */
     
+
+
+}
+
+@media (max-width: 450px){
+    #header .right{
+        display: none;
+    }
 
 }
 

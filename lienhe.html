@@ -4,15 +4,19 @@
 
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="./assets/font/fontawesome-free-6.2.1-web/css/all.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
-	<link rel="stylesheet" type="text/css" href="./assets/css/sanpham.css"/>
-	<link rel="stylesheet" type="text/css" href="./assets/font/fontawesome-free-6.2.1-web/css/all.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/css/lienhe.css"/>
 	<link rel="stylesheet" href="./assets/css/reponsive.css">
-	
+
     <link rel="shortcut icon" href="./assets/image/trangngoai/ICON_WEBSITE BEE-01.png" type="image/x-icon">
-	<title>SAN PHAM 01</title>
+
+	<title>LIÊN HỆ</title>
+
+	<script src="./assets/js/jquery-3.6.1.min.js"></script>
+	<script src="./assets/js/app.js"></script>
 
 </head>
 
@@ -58,44 +62,57 @@
 				</ul>
 			</div>
 
-			<div class="clear-float">
-				<ul class="sanpham_user-control">
+			<!-- <div class="clear-float">
+				<ul class="language-item">
+					<li>
+						<a href="#">VND</a>
+					</li>
+					<li>
+						<a href="#">USD</a>
+					</li>
+					<li>
+						<a href="#">CNY</a>
+					</li>
+				</ul>
+			</div> -->
+
+
+			<!-- <div class="clear-float user">
+
+				<ul class="giohang p-l-10">
+					<li>
+						<a href="#">
+							<img src="./assets/image/donhang.png" height="40">
+						</a>
+					</li>
+					<li class="p-l-10">
+						<a href="#">
+							<img class="m-t-10" src="./assets/image/sanpham/ICON SP-24.png" height="25">
+						</a>
+					</li>
+				</ul>
+
+				<ul class="language-item">
 					<li>
 						<a href="#">Đăng nhập</a>
 					</li>
 					<li>
 						<a href="#">Đăng ký</a>
 					</li>
-					<li>
-						<a href="#">
-							<img src="./assets/image/sanpham/ICON SP-24.png" height="25">
-						</a>
-					</li>
-				</ul>
-			</div>
-
-
-			<div class="clear-float user">
-
-				<ul class="giohang p-l-10">
-					<li>
-						<a href="#">
-							<img src="./assets/image/donhang.png" height="40">
-							<span class="giohang-tracuu">Tra cứu đơn hàng</span>
-						</a>
-					</li>
-					
 				</ul>
 
-				
 
-
-			</div>
+			</div> -->
 		</div>
+
+		
 	</div>
 
-
+	
 	<div id="menu">
+		<div class="navbar">
+			<i class="navbar-icon fas fa-bars"></i>
+		</div>
 		<div class="left">
 			<ul>
 				<li><a href="#">Trang chủ</a></li>
@@ -113,16 +130,41 @@
 					<i class="fa fa-search"></i>
 				</button>
 			</div>
-		</div>
+		</div> 
 	</div>
 
 	<div id="banner">
 		<img src="./assets/image/bgc_beeking.jpg">
 	</div>
-
-	<div class="container">
-		
+	<div class="map container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="map-item ">
+					<div class="map-title">
+						<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-28.png" alt="">
+						<h5 class="text-uppercase">chi nhánh 1:</h5>
+					</div>
+					<div class="map-img">
+						<img src="./assets/image/map1.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="map-item ">
+					<div class="map-title">
+						<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-28.png" alt="">
+						<h5 class="text-uppercase">chi nhánh 1:</h5>
+					</div>
+					<div class="map-img">
+						<img src="./assets/image/map2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	
+	<!-- footer -->
 	<div id="footer">
 		<div class="container">
 			<div class="cong-ty">
@@ -174,6 +216,8 @@
 		</div>
 
 	</div>
+
+
 </body>
 
 </html>

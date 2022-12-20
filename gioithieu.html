@@ -10,10 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/gioithieu.css"/>
 	<link rel="stylesheet" type="text/css" href="./assets/css/reponsive.css"/>
 	<link rel="stylesheet" type="text/css" href="./assets/font/fontawesome-free-6.2.1-web/css/all.css" />
-	<link rel="stylesheet" href="./assets/css/reponsive.css">
+	
 	
     <link rel="shortcut icon" href="./assets/image/trangngoai/ICON_WEBSITE BEE-01.png" type="image/x-icon">
 	<title>Giới Thiệu</title>
+
+	<script src="./assets/js/jquery-3.6.1.min.js"></script>
+	<script src="./assets/js/app.js"></script>
 
 </head>
 
@@ -60,13 +63,56 @@
 			</div>
 
 			<div class="clear-float">
-				
+				<ul class="language-item">
+					<li>
+						<a href="#">VND</a>
+					</li>
+					<li>
+						<a href="#">USD</a>
+					</li>
+					<li>
+						<a href="#">CNY</a>
+					</li>
+				</ul>
+			</div>
+
+
+			<div class="clear-float user">
+
+				<ul class="giohang p-l-10">
+					<li>
+						<a href="#">
+							<img src="./assets/image/donhang.png" height="40">
+						</a>
+					</li>
+					<li class="p-l-10">
+						<a href="#">
+							<img class="m-t-10" src="./assets/image/sanpham/ICON SP-24.png" height="25">
+						</a>
+					</li>
+				</ul>
+
+				<ul class="language-item">
+					<li>
+						<a href="#">Đăng nhập</a>
+					</li>
+					<li>
+						<a href="#">Đăng ký</a>
+					</li>
+				</ul>
+
+
 			</div>
 		</div>
+
+		
 	</div>
 
-
+	
 	<div id="menu">
+		<div class="navbar">
+			<i class="navbar-icon fas fa-bars"></i>
+		</div>
 		<div class="left">
 			<ul>
 				<li><a href="#">Trang chủ</a></li>
@@ -84,7 +130,7 @@
 					<i class="fa fa-search"></i>
 				</button>
 			</div>
-		</div>
+		</div> 
 	</div>
 
 	<div id="banner">
@@ -92,7 +138,7 @@
 	</div>
 
 	<div class="introduce container">
-		<div class="group-title text-center introduce-header">GIỚI THIỆU SẢN PHẨM</div>
+		<div class="group-title text-center introduce-header"><h1>GIỚI THIỆU SẢN PHẨM</h1></div>
 
 		<div class="introduce-content">
 		
@@ -113,11 +159,12 @@
 				<div class="col-md-6">
 					<div class="intro-mission">
 						<div class="intro-mission">
-							<div class="intro-mission-header">
-								<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-28.png" alt="">
+							<div class="intro-mission-header sumenh-intro">
+								<img class="img-up sumenh_up" src="./assets/image/trangngoai/ICON_WEBSITE BEE-29.png" alt="">
+								<img class="img-down sumenh_down" src="./assets/image/trangngoai/ICON_WEBSITE BEE-28.png" alt="">
 								<span class="intro-titles">Sứ Mệnh</span>
 							</div>
-							<div class="intro-mission-content">
+							<div class="intro-mission-content sumenh_content">
 								<div>
 									<img src="./assets/image/gioithieu/sanpham3.jpg" alt="">
 								</div>
@@ -135,11 +182,12 @@
 				<div class="col-md-6">
 					<div class="intro-mission">
 						<div class="intro-mission">
-							<div class="intro-mission-header">
-								<img src="./assets/image/trangngoai/ICON_WEBSITE BEE-28.png" alt="">
+							<div class="intro-mission-header giatri_intro">
+								<img class="img-up giatri_up" src="./assets/image/trangngoai/ICON_WEBSITE BEE-29.png" alt="">
+								<img class="img-down giatri_down" src="./assets/image/trangngoai/ICON_WEBSITE BEE-28.png" alt="">
 								<span class="intro-titles">Giá Trị Cốt Lõi</span>
 							</div>
-							<div class="intro-mission-content">
+							<div class="intro-mission-content giatri_content">
 								<div>
 									<img src="./assets/image/gioithieu/sanpham4.jpg" alt="">
 								</div>
@@ -157,7 +205,7 @@
 			</div>
 		</div>
 
-		
+		<!-- process qua trinh san xuat -->
 		<div class="container process">
 			<div class="shadow">
 				<div class="group-title text-center process-header">QUY TRÌNH SẢN XUẤT</div>
@@ -183,6 +231,7 @@
 		
 	</div>
 	
+	<!-- footer -->
 	<div id="footer">
 		<div class="container">
 			<div class="cong-ty">
@@ -234,6 +283,9 @@
 		</div>
 
 	</div>
+
+
+
 </body>
 
 </html>

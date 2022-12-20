@@ -5,9 +5,9 @@
     box-sizing: inherit; /*kế thừa thẻ chứa nó*/
 }
 
-html{
+/* html{
    
-}
+} */
 
 body {
     margin: 0px;
@@ -240,19 +240,21 @@ a{
 #footer
 {
     background-image: url('../image/bg-footer.png');
-    height: 630px;
+    /* height: 630px; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 2400px;
     width: 100%;
     margin: 0 auto;
+
+    padding-bottom: 30px;
 }
 
 #footer .container
 {
     display: flex;
-    padding-top: 230px;
+    padding-top: 50px;
 }
 
 #footer .container .cong-ty
@@ -338,7 +340,37 @@ margin-right: 15px;
     padding-left: 20px;
     padding-bottom: 20px;
   }
-
+/* 
   .d-block{
     display: block;
+  } */
+
+
+  /* nut chuyen trang cuoi trang */
+
+  .pages_redirect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pages_redirect-btn{
+    border: none;
+  }
+
+  .pages_redirect-list{
+    max-width: 2400px;
+    width: 100%;
+    margin: 30px auto !important;
+  }
+
+  .pages_redirect-list span{
+    padding: 6px 14px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .pages_redirect-list span:hover{
+    background-color: var(--primary-color);
+    color: #fff;
   }
